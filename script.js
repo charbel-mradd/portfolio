@@ -1,4 +1,7 @@
-var loader= document.getElementById("preloader")
-window.addEventListener("load", function(){
-loader.style.display='none'
+var typed = new typed(".text",{
+    Strings:["Web Developer" , "Student" , "Worker"],
+    typeSpeed:100,
+    backSpeed:100,
+    backDelay:1000,
+    loop:true
 })

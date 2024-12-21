@@ -4,45 +4,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src=""></script>
 </head>
 <body>
-<div id="preloader"></div>
-    <nav>
-        <div  class="initial-nav">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="about.html" class="nav-link">About me</a>
-            <a href="skill.html" class="nav-link">Skills</a>
-            <a href="contact.html" class="nav-link">contact</a>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+           </nav>
+          
+    </header>
+<section class="home">
+    <div class="home-content">
+       
+        <h3>Hello It's Me</h3>
+        <h1>Charbel Mrad</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>I am a Web develloper student for 1 year</p>
+        <br>exprecinting is very awesome for everyone</br>
+        <div class="home-sci">
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAk9JREFUWEfl10uoTVEcx/HPTR4Dz8IA5VEkJa/yJpFSKIUBiUxkYnARAxMmCjFgZGJAJI+RgUKRJG8xk0hKBpSYeJe9tNVptc7Ze997z3FiTc5gr/P7f9dv/f//tVaHNhsdbcbjnwbqxJHI8WtYWmUXetKh7TgcBX+PYe0EFFhG43VZqGY7FDj2Y087AX3FhLIutcKhYM4rrMHDIqd6EihVZbXxf+IkLuAKfqTgWglUGz/A3MX8GKongVJl32iHPmHQfwWUyqEHOIp9GBu58RGDu+PQ7LxSpmIyhuMgdueiKaB7mIXe2IJNGJ+DdBloLo5heiIhygLFfw25Mw6Pqzo0AzfQv052HsKu/Fsqqe9jZlHvqf3eqMrG4El2gg9sINhSoHNYW7C6lgHNwe0ETOgdF/Om9iw/n16WSOrSu1Zvy05jfaTyDUtwq456U3PoHYZGgbfieIOlNg1oGh4lAo/Cm78BtAKXosBvMaIgEUL5H4jmhDycVzqBspaeyqEFuBmJfMZIfGggHo6IbdH3s1jXXaABeeBekVA4j/bWEe+LUG2xi5Wur0G7XpVdxrIo+Pcs6EaEVcfN9TxWJ2AX43p3HQr/34wTdYTO5O+vL1hVc2DG00OfmlgFppFD/TKH7mBKVcGa+TsT77RCuaKz7GkmGnKq6riaXehXIrw4Ko2iK2youJAzRSVfGzScgRuyt1jIucqjCCgIDsEpLC9Qf44diR5WCaoM0B/BSdndaBEW5r998CLPtVBJoZl2yZW4ZCutoNmTqzjUbJbf+m0H9AsycXEloW6d+QAAAABJRU5ErkJggg=="/></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA5hJREFUWEftl1moTmEUhp9jDLkhY5RkJlNJpAyRKbkwS5JQppKhkHmIEJIhUxKZiVKEkDKFzFMoRRQukczfq7X1+c7+996/38W5sOp0zv/t9a39nrXe9a71F1HCrKiE4eE/oLSK5JOhFkAboB5QOi2wPf8GPAduAvey3MkCaBiwCGiQJWCCzxNgDnAgKU4SoFrATqBHgUDC66dd1kYBr+LiJgE6CfS0S5eAHcANS/2XjCDLA62A9sAEoIndOwH0yQfQAOCQXZgNLMsIIMmtHLAWGG9OA4HD4YVcGVK9xRnVe0gBYLoCw4EawHHL8nWgJfDYy9jvV8QBagbcN4/OwIUCAE0E1gdlGgHssrO6wEs/fhwgv1xKcy6+VAamAR2A1sAP4BZwBVgJfLDs7rMXqkFEZmVeFZD1s8wlZkg13gi8A6rlyE5368DaOZ6/AEYC511pJBvVLetnHNhKwHu7pwzqXYmAZgArgKdAw5gXdgHOeedngTtAGcc5lbub96yTk42LQQxV5budzQKWpwGaa0J418jn+6tMD4A6lkERVrrim6RiD1DFVLo58DHw+WpqP8/9XpwGaIHjw3xA3dAuCDQG2Gpn0hHpSZyppQ/aA5UuInHkK14qo5kALTRHkVOE9W07MNoJ5mWgYw4w0bHml8i+yUTRd//ktE2imQmQ5pbKdtsC+oEemnaolSenANoCjM0RRx1Y0aihavy2uLaPSvYIaBq8VGeNXfdtcByalAJos5tX44xz4pFv6jJ1m/ijLGUCJPKGgfYCQ01rwnKG+KRJmmPij3jkm0hewR3onxdF/hrQTG+uFRM1L+5gl9399nkqsCYA9Bkoa9RYkgZINRXyuJLVtGlfFXjrtEpj4FTwst5OjXdb27826ZDIRlbKAdHiJis2uOM4JKelwLMcS1mvoN2ThFEi6YuoQIjMIrVMo2d1Wob+9egIueWPDu1IkoVEDvV37X7UhqW0Imm4asxo+dKurXEQDtcQjD7Xt+zrbw3yI2mAtNVJb2SFrh9xgPz1Q18colXnl2/agibCRmtsXPB8zzQurpngvrHF7Y8YuQD19fYU6YR+tO8UYuEKG7saJy35Wl8HGYKrbsJvsyVfW4CmdRaLlnwN6Sle1ypG27g4SYDUnqu8pTwLgCw+2gLUXb42JXZZGFQcWud2nEZZ3pbgo4VvuuvIY0lxsnxzje6XmK/SBSYmv+v5ZCi/yH/p/R9QWuJ+ArGquSWsrGisAAAAAElFTkSuQmCC"/></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAT1JREFUWEft1s8qRVEUx/HP9QAyk4F/r4CMjUyUifIMksLI1FgMJMkbKE8gTyCUJxBGlDAwU3JvuXXv7h5nn8692oO9h2uvs37f81vrnL0bEluNxHhkoLKO9NOhISxhFt94xxtecVEG0t7vF9AyDjFVIBytE534xxtu4KjEgWid6MQCwRncRrQjWic6sUD0GOspAV1hPgC6bg70Jm7wFQHblVLXoXtMB6JzkW3syVoX6BETQeUxPFd1pl+f/RPGM1CHA7uBG9sYDmIH+OyIveAktoVVZqiV2zoSqq5LLMY+9B9Ap80hX0sJaAd7KQGt4nwQQK2aC0Hhs+bAjgaxld9rRzt8h49BAYV1HzCZ0n8oA5W1PjuUHapydPRyK89QnqG6M7SFkcDG/eCCVuZy135doEpiMckZqMyl5Bz6AfsnPSV91uyVAAAAAElFTkSuQmCC"/></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAiBJREFUWEft18vLTVEYx/HP6xpyn7gkoTBhIjEwUGSKlJFkYGpAlJSUlEshBiZG/gFkJgPJiGRghMJMUq5Rct+P9tbu2MtZ+xyd3nTW7Jz9XL7rWc/zW3uPGGVrZJTxGAJ1O5Fhhf67Ck3EcswsdzYHCzGp207L52/xDO/K3y/xGF9T/k09NBVHsQdjMxO3MfuGeziFy52OTUDXsalNhj5sz2Jf3b8TaD1u9pGgF9e1uFM5dgKdKc57by9R+/A5iYMpoBvY2EfwXlyvYXMK6CGWtYgapV7Twr7JNBp8dQroFWZlJvhRTuEOnMC8TL9Os6dYkgIKfcgd9e8128k4hAOY0BLsBeY2AYUIfmoRrA5UuYVohr5sbxHnTf1U6lM2raaoOfGagCq/kI/zWJER6ANCjH+tOtD4ouyfMwJUJqG44xL263AhEyhyxun8ATQGkSR3NQHFkZ3GttwghVK/x/RUU3/5y647c9SBppRNvb+Hpn6O+SmgaLAZmbuLiYyJ2lmU/Hh9UjL9K7NH5RvFH0cWfzzB4syAoUP3sSrTPmV2CzEEjUC3EQ05yHUJu1JAF7F7kDTFIB0u+vZYCmgLrgwYKO7Cuymg0KK47FYOCOoqttZzNb0xhibEvbQBoaLR5Av+MWBM6DkcKe6/j92AmnLHtRICVq3ZWISlJXBKsSv72Fjc6q/LF/wHHfF+Bx5+KHY7+mGFhhXqVoFuz0ddD/0ElehNJRg4qHwAAAAASUVORK5CYII="/></a>
+            
         </div>
-    </nav>
-  <div class="homepage1"> <h1>My Portfolio</h1></div>  
-   <button style="text-align: center;border-radius: 10px;background-color: rgb(241, 0, 0); " onclick="learn">Learn More</button>
-<div><h2>Table Of Content</h2>
-<ul>
-    <li><a href="#welcome" class="nav2">Welcome to my portfolio</a></li>
-    <li><a href="#about" class="nav2">About Me</a></li>
-    <li><a href="#whatido" class="nav2">What i Do</a></li>
-    </ul>
-</div>
+        <a href="#" class="btn-box">More About Me</a>
+    </div>
+   <img src="avatar.png" alt="avatar" class="avatar">
+</section>
 
-    <article id="welcome">
-    <section id="welcome">
-        <div>Welcome to My Portfolio</div>
-        <p>Hi, I’m Charbel
-            A passionate Grade 11 student, aspiring programmer, and future scholar. Welcome to my world of creativity, technology, and ambition.</p>
-    </section>
-<section id="about">
-    <div>About Me</div>
-    <p>I am a dedicated student with a keen interest in programming and web development. I strive to learn, grow, and create innovative projects that leave a lasting impact. From coding to academic achievements, I am on a journey to turn my dreams into reality.</p>
-</section>
-<section id="whatido">
-    <div>What I Do</div>
-    <p>Web Development: Crafting interactive and user-friendly websites using HTML, CSS, and JavaScript.
-        Programming: Continuously enhancing my coding skills to solve real-world problems.
-        Academic Excellence: Committed to academic growth and pursuing full scholarships for higher education.
-        </p>
-</section>
-</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
