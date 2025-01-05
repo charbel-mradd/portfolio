@@ -1,0 +1,277 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+       
+            
+        
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">
+                <img style="border-radius: 50%; width: 60px; height: 60px; left: 40px;" src="logo.jpeg" alt="">
+            </a>
+            
+            <nav class="navbar" id="navbar">
+                <a href="#" style="--i:1" class="active">Home</a>
+                <a href="#about" style="--i:2">About</a>
+                <a href="#skills" style="--i:3">Skills</a>
+                <a href="#project" style="--i:4">Portfolio</a>
+                <a href="#contact" style="--i:5">Contact</a>
+            </nav>
+        </header>
+        
+    
+    <section class="home" >
+        <div class="home-content">
+           
+            <h3>Hello It's Me</h3>
+            <h1>Charbel Mrad</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I am a Web developer student</p>
+           
+            <div class="home-sci">
+                <a href="https://www.tiktok.com/@charbel7088?_t=ZS-8sRILvzDKbv&_r=1" style="--i:7" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAk9JREFUWEfl10uoTVEcx/HPTR4Dz8IA5VEkJa/yJpFSKIUBiUxkYnARAxMmCjFgZGJAJI+RgUKRJG8xk0hKBpSYeJe9tNVptc7Ze997z3FiTc5gr/P7f9dv/f//tVaHNhsdbcbjnwbqxJHI8WtYWmUXetKh7TgcBX+PYe0EFFhG43VZqGY7FDj2Y087AX3FhLIutcKhYM4rrMHDIqd6EihVZbXxf+IkLuAKfqTgWglUGz/A3MX8GKongVJl32iHPmHQfwWUyqEHOIp9GBu58RGDu+PQ7LxSpmIyhuMgdueiKaB7mIXe2IJNGJ+DdBloLo5heiIhygLFfw25Mw6Pqzo0AzfQv052HsKu/Fsqqe9jZlHvqf3eqMrG4El2gg9sINhSoHNYW7C6lgHNwe0ETOgdF/Om9iw/n16WSOrSu1Zvy05jfaTyDUtwq456U3PoHYZGgbfieIOlNg1oGh4lAo/Cm78BtAKXosBvMaIgEUL5H4jmhDycVzqBspaeyqEFuBmJfMZIfGggHo6IbdH3s1jXXaABeeBekVA4j/bWEe+LUG2xi5Wur0G7XpVdxrIo+Pcs6EaEVcfN9TxWJ2AX43p3HQr/34wTdYTO5O+vL1hVc2DG00OfmlgFppFD/TKH7mBKVcGa+TsT77RCuaKz7GkmGnKq6riaXehXIrw4Ko2iK2youJAzRSVfGzScgRuyt1jIucqjCCgIDsEpLC9Qf44diR5WCaoM0B/BSdndaBEW5r998CLPtVBJoZl2yZW4ZCutoNmTqzjUbJbf+m0H9AsycXEloW6d+QAAAABJRU5ErkJggg=="/></a>
+                <a href="https://www.instagram.com/charbel_mradd/profilecard/?igsh=aWx4cXNhZXh0enlv" style="--i:8"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA5hJREFUWEftl1moTmEUhp9jDLkhY5RkJlNJpAyRKbkwS5JQppKhkHmIEJIhUxKZiVKEkDKFzFMoRRQukczfq7X1+c7+996/38W5sOp0zv/t9a39nrXe9a71F1HCrKiE4eE/oLSK5JOhFkAboB5QOi2wPf8GPAduAvey3MkCaBiwCGiQJWCCzxNgDnAgKU4SoFrATqBHgUDC66dd1kYBr+LiJgE6CfS0S5eAHcANS/2XjCDLA62A9sAEoIndOwH0yQfQAOCQXZgNLMsIIMmtHLAWGG9OA4HD4YVcGVK9xRnVe0gBYLoCw4EawHHL8nWgJfDYy9jvV8QBagbcN4/OwIUCAE0E1gdlGgHssrO6wEs/fhwgv1xKcy6+VAamAR2A1sAP4BZwBVgJfLDs7rMXqkFEZmVeFZD1s8wlZkg13gi8A6rlyE5368DaOZ6/AEYC511pJBvVLetnHNhKwHu7pwzqXYmAZgArgKdAw5gXdgHOeedngTtAGcc5lbub96yTk42LQQxV5budzQKWpwGaa0J418jn+6tMD4A6lkERVrrim6RiD1DFVLo58DHw+WpqP8/9XpwGaIHjw3xA3dAuCDQG2Gpn0hHpSZyppQ/aA5UuInHkK14qo5kALTRHkVOE9W07MNoJ5mWgYw4w0bHml8i+yUTRd//ktE2imQmQ5pbKdtsC+oEemnaolSenANoCjM0RRx1Y0aihavy2uLaPSvYIaBq8VGeNXfdtcByalAJos5tX44xz4pFv6jJ1m/ijLGUCJPKGgfYCQ01rwnKG+KRJmmPij3jkm0hewR3onxdF/hrQTG+uFRM1L+5gl9399nkqsCYA9Bkoa9RYkgZINRXyuJLVtGlfFXjrtEpj4FTwst5OjXdb27826ZDIRlbKAdHiJis2uOM4JKelwLMcS1mvoN2ThFEi6YuoQIjMIrVMo2d1Wob+9egIueWPDu1IkoVEDvV37X7UhqW0Imm4asxo+dKurXEQDtcQjD7Xt+zrbw3yI2mAtNVJb2SFrh9xgPz1Q18colXnl2/agibCRmtsXPB8zzQurpngvrHF7Y8YuQD19fYU6YR+tO8UYuEKG7saJy35Wl8HGYKrbsJvsyVfW4CmdRaLlnwN6Sle1ypG27g4SYDUnqu8pTwLgCw+2gLUXb42JXZZGFQcWud2nEZZ3pbgo4VvuuvIY0lxsnxzje6XmK/SBSYmv+v5ZCi/yH/p/R9QWuJ+ArGquSWsrGisAAAAAElFTkSuQmCC"/></a>
+                <a href="https://www.facebook.com/share/f2vM7Chk1ycXk4nH/" style="--i:9" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAT1JREFUWEft1s8qRVEUx/HP9QAyk4F/r4CMjUyUifIMksLI1FgMJMkbKE8gTyCUJxBGlDAwU3JvuXXv7h5nn8692oO9h2uvs37f81vrnL0bEluNxHhkoLKO9NOhISxhFt94xxtecVEG0t7vF9AyDjFVIBytE534xxtu4KjEgWid6MQCwRncRrQjWic6sUD0GOspAV1hPgC6bg70Jm7wFQHblVLXoXtMB6JzkW3syVoX6BETQeUxPFd1pl+f/RPGM1CHA7uBG9sYDmIH+OyIveAktoVVZqiV2zoSqq5LLMY+9B9Ap80hX0sJaAd7KQGt4nwQQK2aC0Hhs+bAjgaxld9rRzt8h49BAYV1HzCZ0n8oA5W1PjuUHapydPRyK89QnqG6M7SFkcDG/eCCVuZy135doEpiMckZqMyl5Bz6AfsnPSV91uyVAAAAAElFTkSuQmCC"/></a>
+                <a href="https://www.snapchat.com/add/charbell_mrad?share_id=RMWpJLCa0BM&locale=en-GB" style="--i:10"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAlZJREFUWEft18urT1EUwPHPJSGSJEoeZaAoMjFhYMDAwEwykAmhJMLAMySSAZEYIMqA+AuMyEDkMUDKRHlTJCWhkLN0bl3X73f23r971R1YdUZ77bW+e+/1Ol0GmHQNMB7/gVIv0tcbWoC5GFw7+o5ruJFy3G69U6Cl2IVZbQzfwk5cLQUrBQr9i1iW6eggdmTq/lYrBYpT7y9xgOW4kLunBGgqHmNIrvFa73MFNA2vc/aVAB3BphyjLXQOYVvO3hKg25iTY7SFTgR3ZGRSSoCeY1LSYmuF+5ids7cE6C3G5xhtofOwoUT8oV4C9AyTOwS6m/vcJUAPMLNDoJt1RU9ubwKagmMIkOs4hUj9TuQOtmIRpmNt9b1pZagJaEMN1AlAak8AxQH/kiagUTiMFRia8pC5/hFnsA+fSoG69SdiHbZnOm2ntrl6rkupip0b1HFDX/sINKw61LeUjVygjTiaMpZYX48TKRs5QFF7HmFkylhi/T1m4F2TXgpoXD0BhqH+kHtYiAjultIENK860eUqPSf0B0kPG0+wBNHfkmk/HIvrArayn0F6mvuJk/WIe6Uqml+6F3vf0Op2Besfwq3B6XZAkd5RDGNmHvsPIcJ0BHnUpS09y0FTDEXsRP+JFtKfcha78SonhnrrRHeP5voUL+puP7qQ7iXii6Ya8/j8Kk5jHCnOslYbBlU1Kf7J9tQOmtgimw5UE8J5/Mg9RKoONR1kFWJ4H9NLKWrMXhyvniayqUg6Bep2MqJ6ygDrhvqAc+06eQ5ZX4FyfBTp/AdKXdeAu6FfBWpUJWjmYQgAAAAASUVORK5CYII="/></a>
+                </div>
+            <a href="#about" class="btn-box">More About Me</a>
+            <a href="download.png" class="btn-box">Hire Me</a>
+        </div>
+       <img src="avatar.png" alt="avatar" class="avatar">
+    </section>
+    
+    <section class="about" id="about" class="about animate">
+        <div class="about-img">
+       <video src="vid.mp4" class="rounded-video" preload="auto" ></video>
+        </div> 
+        <div class="about-text">
+    <h2>About <span>Me</span></h2>
+    <h4>Web Developer & Designer</h4>
+    <p>I'm a web development enthusiast, constantly honing my skills in HTML, CSS, and JavaScript. Although I'm still building my foundation, I'm passionate about creating dynamic, engaging web experiences. I’m dedicated to experimenting with animations, integrating custom avatars, and exploring interactive design elements to push my creativity. With a strong focus on efficiency, I manage my projects on GitHub and streamline my workflow using VS Code. My goal is to transform ideas into seamless, polished digital creations while continuously expanding my knowledge in coding and design.</p>
+        <a href="download.png" class="btn-box">More About Me</a>
+    </div>
+    </section>
+    
+    <section>
+        <div class="sevices" id="services">
+    <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="services-list">
+            <div>
+                
+                <i class='bx bx-code' style='color:#00eeff'  ></i>
+                <h2>Web Designer</h2>
+                <p>
+                    Our web design service offers custom, responsive websites that are both visually appealing and user-friendly. We focus on creating designs that reflect your brand identity while ensuring seamless navigation across all devices. Whether you're a small business or an established enterprise, we provide tailored solutions that enhance user experience, optimize performance, and help you stand out online. Let us transform your ideas into a beautiful and functional website that meets your needs.
+                </p>
+                
+                </div>
+                
+                <div>
+                    <i class='bx bxl-sketch' style="color:#00eeff"></i>
+                    <h2>Development</h2>
+                    <p>With expertise in Python and JavaScript, I offer web development services that deliver efficient, scalable solutions tailored to meet diverse project needs. Whether it's building dynamic websites, interactive web applications, or optimizing performance, I utilize my skills to create functional and robust solutions that align with your business objectives. Let me help you bring your vision to life with seamless, high-quality development.</p>
+                    
+                </div>
+                
+                <div>
+                    <i class='bx bx-devices' style="color:#00eeff"></i>
+                    <h2>Responsive</h2>
+                    <p>I specialize in creating fully responsive web designs that not only look visually stunning but also adapt seamlessly to a variety of screen sizes, including desktops, tablets, and smartphones. My designs are meticulously crafted to provide users with an optimal browsing experience, ensuring fast load times, intuitive navigation, and flawless functionality across all devices. By focusing on responsiveness and usability, I aim to deliver websites that not only meet but exceed user expectations, making them accessible and visually appealing for everyone</p>
+                    
+                </div>
+                
+        </div>
+    </div>
+    </div>
+    </section>
+    
+    <section>
+        <div class="sub-title"><div>My <span style="color: #00eeff;">Skills</span></div></div>
+       <div class="skills-section" >
+        <div class="container1" id="skills">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar">
+                    <i class='bx bxl-html5' style='color:#c95d2e'></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-css3' style='color:#147bbc'></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-javascript' style='color:#b0bc1e'></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-python' style='color:#e5e32f'></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-bootstrap' style='color:#7952B3'></i>
+                    <div class="info">
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="progress-line bootstrap">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Creativity</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Communication</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">92%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">95%</div>
+                    <div class="text">Team Work</div>
+                </div>
+            </div>
+        </div>
+       </div>
+    
+    </section>
+    <section>
+        <div id="project" id="portfolio" class="animate">
+            <div class="main-text" id="project">
+                <h2>Latest <span>Projects</span></h2>
+                <br>
+                <br>
+                <br>
+    
+    
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="france.jpg" alt="france">
+                        <div class="layer">
+                            <h5>Exploring France: A Cultural Journey</h5>
+                            <p>A visually engaging website showcasing France's iconic landmarks, rich history, and cultural heritage. Designed to provide users with an immersive experience, this project highlights the beauty and diversity of France, making it an ideal resource for travelers and culture enthusiasts alike</p>
+                            <a href="https://musical-puppy-54dbcd.netlify.app" class="btn-box">View Website</a>
+                            <a href="https://github.com/charbel-mradd/guidetomycountry" class="btn-box">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="calculator.png" alt="calculator">
+                        <div class="layer">
+                            <h5>Interactive Calculator</h5>
+                            <p>A sleek and functional calculator built with JavaScript, featuring a user-friendly interface and basic arithmetic operations. This project demonstrates clean design and efficient coding, offering a seamless experience for performing quick calculations</p>
+                            <a href="https://spectacular-nougat-14a5e4.netlify.app" class="btn-box">View Website</a>
+                            <a href="https://github.com/charbel-mradd/calculator" class="btn-box">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="stopwatch.avif" alt="stopwatch">
+                        <div class="layer">
+                            <h5>Stopwatch</h5>
+                            <p>A simple and effective stopwatch application built with JavaScript, allowing users to start, stop, and reset the timer with ease. This project showcases clean design and efficient coding practices</p>
+                            <a href="https://preeminent-cassata-0af699.netlify.app" class="btn-box">View Website</a>
+                            <a href="https://github.com/charbel-mradd/stopwatch" class="btn-box">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span style="color: #00eeff;">Me</span></h2>
+            <h4>Let's Work Together</h4>
+            <p>I'm always open to new opportunities and collaborations. Whether you have a project in mind or just want to chat about ideas, feel free to reach out. Let’s work together and bring your vision to life! I look forward to connecting with you.</p>
+        </div>
+        <div class="contact-info">
+            <div class="info-item">
+                <i class='bx bx-map'></i>
+                <p>Rass Baalbeck, Lebanon</p>
+            </div>
+            <div class="info-item">
+                <i class='bx bx-phone'></i>
+                <p>+961 81 357 100</p>
+            </div>
+            <div class="info-item">
+                <i class='bx bx-envelope'></i>
+                <p>codebraver26@codebrave.org</p>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button class="btn-box" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+        <script src="script.js"></script>
+       
+    </body>
+    </html>
+    
