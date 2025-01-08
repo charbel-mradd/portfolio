@@ -9,6 +9,28 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - [Projects](#projects)
 - [Contact](#contact)
 
+## Color Palette
+
+The color palette used in this portfolio is designed to create a visually appealing and cohesive look. Here are the primary colors:
+
+- **Background Color:** `#081b29`
+- **Header Background Color:** `#051129`
+- **Primary Accent Color:** `#0ef`
+- **Text Color:** `whitesmoke`
+- **HTML Icon Color:** `#c95d2e`
+- **CSS Icon Color:** `#147bbc`
+- **JavaScript Icon Color:** `#b0bc1e`
+- **Python Icon Color:** `#e5e32f`
+- **Bootstrap Icon Color:** `#7952B3`
+- **Overlay Color:** `rgba(0, 238, 255, 0.5)`
+- **Overlay Hover Color:** `rgba(0, 200, 255, 0.5)`
+
+
+
+
+
+
+
 
 ## About
 
@@ -48,3 +70,6 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/charbel-mradd/portfolio.git
+
+
+
