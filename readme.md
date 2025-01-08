@@ -8,9 +8,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - [Skills](#skills)
 - [Projects](#projects)
 - [Contact](#contact)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
+
 
 ## About
 
@@ -49,4 +47,4 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/charbel-mradd/portfolio.git
